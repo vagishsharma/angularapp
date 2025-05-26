@@ -1,18 +1,116 @@
-  <section class="about-me">
-    <div class="card">
-      <img src="https://shorturl.at/7pKlE" alt="Profile Photo" class="profile-img">
-      <h1 class="name">Jane Doe</h1>
-      <p class="bio">
-        I'm a front-end web developer who loves building user-friendly web interfaces with Angular, HTML, CSS, and JavaScript.
-      </p>
+  <!-- banner section -->
+    <section id="home" class="w3l-banner pt-5">
+        <div class="container pt-lg-5 pt-md-4">
+            <div class="row pt-lg-5 pt-4">
+                <div class="col-lg-7 banner-info-grid pt-lg-0 pt-5">
+                    <h1 class="mb-3">Hi, I'm Vagish Sharma</h1>
+                    <!-- <h3 class="mb-4"> <span class="typed-text">We</span><span class="cursor typing"> </span> </h3> -->
+                    <p>a passionate Frontend Developer specializing in building responsive, user-friendly web interfaces.</p>
+                    <a class="btn btn-primary btn-style mt-5 me-2" href="portfolio.html"> My Portfolio</a>                    
+                </div>
+                <div class="col-lg-5 text-lg-end my-image mt-lg-0 mt-4">
+                    <img src="assets/images/banner.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //banner section -->
 
-      <div class="details">
-        <p><strong>Email:</strong> jane.doe[at]example.com</p>
-        <p><strong>Phone:</strong> +1 234 567 8901</p>
-        <p><strong>Location:</strong> San Francisco, CA</p>
-      </div>
-    </div>
-  </section>
+    <!-- About Section-->
+    <section class="w3l-about py-5" id="about">
+        <div class="container py-md-5 py-2">
+            <div class="row w3l-row">
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4">
+                    <img src="assets/images/about.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 w3l-about-info px-lg-4 align-center">
+                    <h6 class="w3l-title-small mb-1">My Biography</h6>
+                    <h3 class="w3l-title-main mb-2">Frontend Developer</h3>
+                    <p class="my-4 pe-lg-5">I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away! Contact me and we will discuss your projects!</p>
+                    <div class="my-info mt-4">
+                        <div class="single-info"><span>Name:</span>
+                            <p>John Watson</p>
+                        </div>
+                        <div class="single-info"><span>From:</span>
+                            <p>London, UK</p>
+                        </div>
+                        <div class="single-info"><span>Email:</span>
+                            <p><a href="/cdn-cgi/l/email-protection#ef8a978e829f838aaf828e8683c18c8082"><span class="__cf_email__" data-cfemail="ea8f928b879a868faa878b8386c4898587">[email protected]</span></a></p>
+                        </div>
+                        <div class="single-info"><span>Phone:</span>
+                            <p><a href="tel:+21 234 567 8901">+21 234 567 8901</a></p>
+                        </div>
+                    </div>
 
-  <p>somthing write  <input type="text" id="text" [(ngModel)]="firstName"></p>
-  <p>text - {{firstName}}</p>
+                    <ul class="follow-social mt-lg-5 mt-4">
+                        <li>
+                            <h5 class="me-md-3">Follow me on </h5>
+                        </li>
+
+                        <li><a href="https://in.linkedin.com/company/w3layouts"><span class="fab fa-instagram"></span></a>
+                        </li>
+
+                        <li><a href="https://in.linkedin.com/company/w3layouts"><span class="fab fa-linkedin-in"></span></a>
+                        </li>
+
+                        <li><a href="https://www.facebook.com/w3layouts/">
+                                <span class="fab fa-facebook-f"></span></a></li>
+
+                        <li><a href="https://twitter.com/W3layouts"><span class="fab fa-twitter"></span></a></li>
+
+                    </ul>
+                    <div class="w3l-btn">
+                        <a href="/" class="btn btn-style btn-primary mt-lg-5 mt-4 me-md-2">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //About Section-->
+
+    <!-- skills -->
+      <section class="w3l-skills py-5" id="skills">
+        <div class="container py-lg-5 py-md-4 py-3">
+            <div class="row">
+                <div class="col-lg-6 pe-lg-5">
+                    <img src="assets/images/about1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-5 w3l-content-6 px-lg-4 align-self-center">
+                    <h6 class="w3l-title-small mb-2">My skills</h6>
+                    <h3 class="w3l-title-main">My Featured skills</h3>
+                    <p class="mt-4">I Specialize in Branding and Strategy, and am passionate about creating Awesome
+                        Portfolio work. And I always ready to impress the audience with my Creativity. </p>
+                    <div class="progress-info mt-5">
+                        <h6 class="progress-tittle">UI/UX Design</h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info">
+                        <h6 class="progress-tittle">Ideas & Technology
+                        </h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info">
+                        <h6 class="progress-tittle">Branding Design</h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info mb-0">
+                        <h6 class="progress-tittle">Responsive Web Design</h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills ends -->

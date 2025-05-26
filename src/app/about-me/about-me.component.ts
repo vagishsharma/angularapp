@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-about-me',
   standalone: true,
-  imports: [],
+  imports: [HeaderComponent],
   templateUrl: './about-me.component.html',
   styleUrl: './about-me.component.scss'
 })

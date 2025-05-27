@@ -3,6 +3,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { AppComponent } from './app.component';
 import { AppBodyComponent } from './app-body/app-body.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { NgmodelPageComponent } from './ngmodel-page/ngmodel-page.component';
 
 export const routes: Routes = [
      { 
@@ -22,6 +23,9 @@ export const routes: Routes = [
     {
         path: 'contact-us',
         component: ContactusComponent
+    },
+    {
+        path: 'testing',
+        component: NgmodelPageComponent
     }
-
 ];
